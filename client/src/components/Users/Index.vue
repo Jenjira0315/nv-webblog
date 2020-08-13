@@ -12,7 +12,7 @@
  <p><button v-on:click="logout">Logout</button></p>
 <button v-on:click="navigateTo('/user/edit/'+ user.id)">แก้ไขข้อมูล
 </button>
-<button v-on:click="deleteUser(user)">ลบข้อมูล</button>
+<p><button v-on:click="deleteUser(user)">ลบข้อมูล</button>
 </p>
  <hr>
 </div>
